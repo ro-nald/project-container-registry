@@ -13,3 +13,7 @@ export ARM_TENANT_ID=<TenantID>
 ```
 
 With this, Terraform commands can be used to provision resources in the specified Azure subscription.
+
+## Upcoming improvements
+- Retrieve secret from keyvault
+- Create a UI which will create credentials for new projects
