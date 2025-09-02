@@ -16,4 +16,5 @@ With this, Terraform commands can be used to provision resources in the specifie
 
 ## Upcoming improvements
 - Retrieve secret from keyvault
-- Create a UI which will create credentials for new projects
+- Create a UI which will create time-sensitive credentials for new projects to access container images
+- Create a back-up strategy so that the Container Registry doesn't have to be running all the time, it can be provisioned from a free-tier DB service such as MongoDB or a blob storage solution.
